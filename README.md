@@ -37,5 +37,5 @@ cada microserviço. Para evitar isso é utilizado o recurso de mensageria que gu
 
 Arquitetura do projeto:
 
-![image](https://user-images.githubusercontent.com/77034798/230983519-d4f47d8f-7daa-4892-89a2-863fa98044f7.png)
+
 
