@@ -16,7 +16,7 @@ import com.microservice.hrworker.entities.Worker;
 import com.microservice.hrworker.repositories.WorkerRepository;
 
 @RestController
-@RequestMapping(value = "/workers")
+@RequestMapping(value = "hr-worker")
 public class WorkerController {
 	
 	private static Logger logger = LoggerFactory.getLogger(WorkerController.class);
@@ -33,7 +33,7 @@ public class WorkerController {
 		return ResponseEntity.ok().body(list);
 	}
 	
-	@GetMapping(value = "/{id}")
+	@GetMapping(value = "/workers/{id}")
 	public ResponseEntity<Worker> findById(@PathVariable Long id){
 		
 		logger.info("port = " + env.getProperty("local.server.port"));
