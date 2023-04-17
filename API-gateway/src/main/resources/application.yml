@@ -29,3 +29,4 @@ spring:
         uri: lb://hr-oauth 
         predicates:
         - Path=/hr-oauth/**
+       
